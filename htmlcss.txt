@@ -1,0 +1,64 @@
+<!-- 
+Online HTML, CSS and JavaScript editor to run code online.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Browser</title>
+</head>
+
+<body>
+ 
+    <h1>Nawaras KC</h1>
+
+<div class="flex-container">
+ 
+  <div class="item" id="para1">RED</div>
+    <div class="item" id="para2">GREEN</div>
+    <div class="item" id="para3">BLUE</div>
+  
+</div>
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
+
++++++++++++++++++++++++++++++++++++++
+.flex-container {
+  display: flex;
+  background-color: DodgerBlue;
+    justify-content: center;
+    align-items: center;
+/*   aligen-item:  */
+}
+
+.item{
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 30px;
+  
+/*   flex-grow: 2; */
+
+}
+
+#para1 {
+  text-align: center;
+  color: red;
+}
+  
+#para2 {
+  text-align: center;
+  color: green;
+}
+  #para3 {
+  text-align: center;
+  color: blue;
+}
+  
