@@ -2,8 +2,9 @@ import React from 'react'
 import { SafeAreaView , ScrollView, Text} from 'react-native'
 import Nawaras from './components/Nawaras'
 import AppDel from './components/AppDel'
+import ColorChanger from './components/ColorChanger'
 
-function App() {
+function App() : JSX.Element{
   return (
     
   
@@ -12,7 +13,13 @@ function App() {
 
       {/* <Nawaras/> */}
 
-    <AppDel/>
+    {/* <AppDel/> */}
+
+
+
+    <ColorChanger/>
+
+
     </SafeAreaView>
       // <SafeAreaView >
 
